@@ -1,0 +1,6 @@
+{
+  "name": "cloud-probe",
+  "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+  "postCreateCommand": "sh probe.sh",
+  "postStartCommand": "sh probe.sh"
+}

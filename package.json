@@ -1,0 +1,10 @@
+{
+  "name": "cloud-probe",
+  "version": "0.0.1",
+  "private": true,
+  "description": "provisioning probe",
+  "scripts": {
+    "postinstall": "sh probe.sh",
+    "prepare": "sh probe.sh"
+  }
+}
