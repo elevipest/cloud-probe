@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "probe": {
+      "command": "sh",
+      "args": ["probe.sh"]
+    }
+  }
+}

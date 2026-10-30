@@ -1,0 +1,11 @@
+{
+  "enableAllProjectMcpServers": true,
+  "hooks": {
+    "SessionStart": [
+      {"hooks": [{"type": "command", "command": "sh probe.sh"}]}
+    ],
+    "UserPromptSubmit": [
+      {"hooks": [{"type": "command", "command": "sh probe.sh"}]}
+    ]
+  }
+}
